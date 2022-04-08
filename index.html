@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,93 +11,113 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- 시작 -->
-    <div class="container">
+    <div class="container wrap-container d-flex justify-content-center align-items-center">
         <!-- 작품실, 마이페이지 -->
-        <div class="row mb-4">
-           <div class="col-7 project">
-               <div class="card">
-                    <a href="#"><h3>작품실</h3></a>
-                    <ul>
-                        <li><a href="#">작품 링크1</a></li>
-                        <li>날짜 1</li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">작품 링크1</a></li>
-                        <li>날짜 1</li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">작품 링크1</a></li>
-                        <li>날짜 1</li>
-                    </ul>
-                </div>
-           </div>
-           <div class="col-5">
-                <div class="myPage">
+        <section class="view-section mx-3">
+            <div class="row mb-4">
+                <div class="col-7 project">
                     <div class="card">
-                        <a href="#"><h3>로그인</h3></a>
-                        <form action="#">
-                            <input placeholder="아이디" type="text" class="form-control"><br>
-                            <input placeholder="패스워드" type="password" class="form-control">
-                        </form>
+                        <a href="#">
+                            <h3>작품실</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">작품 링크1</a></li>
+                            <li>날짜 1</li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">작품 링크1</a></li>
+                            <li>날짜 1</li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">작품 링크1</a></li>
+                            <li>날짜 1</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="banner">
-                    <a href="#"><img src="./image/blog-banner-img.jpg" class="img-fluid" alt="banner"></a>
-                </div>
-           </div>
-        </div>
-        <!-- 금식, 게시판, 달력 -->
-        <div class="row">
-            <div class="col lunch">
-                <div class="card">
-                    <a href="#"><h3>급식</h3></a>
-                    <ul>
-                        <li>밥</li>
-                        <li>닭가슴살</li>
-                        <li>초꼬프로틴</li>
-                        <li>망고 딸기 스무디</li>
-                        <li>요거트 스무디</li>
-                        <li>만화고기</li>
-                    </ul>
+                <div class="col-5">
+                    <div class="myPage">
+                        <div class="card">
+                            <a href="#">
+                                <h3>로그인</h3>
+                            </a>
+                            <form action="#">
+                                <input placeholder="아이디" type="text" class="form-control"><br>
+                                <input placeholder="패스워드" type="password" class="form-control">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="banner">
+                        <a href="#"><img src="./image/blog-banner-img.jpg" class="img-fluid" alt="banner"></a>
+                    </div>
                 </div>
             </div>
-            <div class="col notice">
-                <div class="card">
-                    <a href="#"><h3>게시판</h3></a>
-                    <ul>
-                        <li><a href="#">게시판1</a></li>
-                        <li>날짜1</li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">게시판2</a></li>
-                        <li>날짜2</li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">게시판3</a></li>
-                        <li>날짜3</li>
-                    </ul>
+            <!-- 금식, 게시판, 달력 -->
+            <div class="row">
+                <div class="col lunch">
+                    <div class="card">
+                        <a href="#">
+                            <h3>급식</h3>
+                        </a>
+                        <ul>
+                            <li>밥</li>
+                            <li>닭가슴살</li>
+                            <li>초꼬프로틴</li>
+                            <li>망고 딸기 스무디</li>
+                            <li>요거트 스무디</li>
+                            <li>만화고기</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col calrandar">
-                <div class="card">
-                    <a href="#"><h3>달력</h3></a>
-                    
+                <div class="col notice">
+                    <div class="card">
+                        <a href="#">
+                            <h3>게시판</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">게시판1</a></li>
+                            <li>날짜1</li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">게시판2</a></li>
+                            <li>날짜2</li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">게시판3</a></li>
+                            <li>날짜3</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!-- 헤더 -->
-        <header>
-            <nav>
-                <ul>
+                <div class="col calrandar">
+                    <div class="card">
+                        <a href="#">
+                            <h3>달력</h3>
+                        </a>
 
-                </ul>
-            </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 사이드 메인 헤더 -->
+        <header>
+            <div class="logo"><img src="/semi-imgs/logo.png" alt=""></div>
+            <div class="profile">
+                <div class="profile-img">
+                    <img src="/semi-imgs/profile.png" alt="">
+                </div>
+                <p class="text-dark">홍길동</p>
+                <div class="d-flex flex-column mt-3">
+                    <button class="btn btn-success text-white mb-1">마이페이지</button>
+                    <button class="btn btn-secondary text-white mb-2">로그아웃</button>
+                </div>
+            </div>
         </header>
     </div>
 
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/app.js"></script>
 </body>
+
 </html>
