@@ -139,9 +139,10 @@ header {
 
 /* 파트2 */
 
+
 .banner {
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 
 .banner a {
@@ -163,9 +164,16 @@ header {
 
 .row .col {
     width: 100%;
-    height: 240px !important;
+    height: 300px !important;
 }
 
-.row .col .card {
+.lunch .card, .project .card, .notice .card, .calrandar .card {
     height: 100%;
+}
+
+.project ul, .notice ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.2rem !important;
 }
